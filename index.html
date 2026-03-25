@@ -1,0 +1,409 @@
+<!DOCTYPE html> 
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, DOM">
+    <meta name="author" content="Fernanda Linhares">
+    <title>Fernanda Linhares</title>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Poppins:wght@100;300;500;700&family=Roboto:ital,wght@0,100;0,400;0,700;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <header class="header">
+      <nav class="header-menu" id="menu">
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#frontend">Front End</a>
+        <a href="#backend">Back End</a>
+        <a href="#gee">Ciência de Dados Geoespaciais</a>
+      </nav>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+
+    <main class="container">
+
+      <a href="#home"><i id="link-home" class='bx bx-up-arrow-circle'></i></a>
+
+      <section id="home">
+        <img src="./assets/perfil3x4.jpg" alt="Imagem perfil Fernanda Linhares" />
+        <h1>Fernanda Linhares</h1>
+        <h2>Dev FullStack</h2>
+      </section>
+
+      <section id="sobre">
+        <div>
+          <h3 class="subtitulo-secao">Tecnologia, Geoprocessamento, Ciência de Dados e IA</h3>
+          <p>
+            Sou capixaba, formada em Turismo, e desde o início da minha carreira fui movida por uma pergunta constante: como transformar informação em decisão?
+            Em 2007, deixei Vitória e me mudei para Florianópolis com o objetivo de me especializar em Geoprocessamento. Embora o caminho profissional naquele momento tenha seguido pelo mercado de Turismo, essa escolha foi determinante para construir minha base analítica e meu interesse por dados, território e planejamento.
+            Ao longo de mais de duas décadas, atuei em praticamente todos os segmentos do trade turístico — agências de viagens, turismo corporativo, recepção, reservas, eventos e gestão operacional. Essa vivência me deu uma visão sistêmica, foco em processos, atendimento ao usuário e resolução de problemas em ambientes complexos.
+            Durante esse período, concluí minha especialização em Geoprocessamento, trabalhando com banco de dados, lógica computacional e programação em Java, ainda em um momento em que o setor pouco dialogava com desenvolvimento de software. A ausência de caminhos claros no mercado e barreiras formais me afastaram temporariamente da tecnologia — mas não do pensamento analítico.
+            Após a maternidade, empreendi no turismo receptivo em Santa Catarina, experiência interrompida pela pandemia. Foi nesse ponto de ruptura que tomei uma decisão definitiva: migrar para a área de tecnologia.
+            Iniciei minha formação como Desenvolvedora Full Stack pelo SENAI, com foco em Angular, Java e Spring Boot. No ano seguinte, ampliei minha base no curso de Analista de Desenvolvimento Web, trabalhando com React, Node.js e Express, além de práticas completas de DevOps, testes, cloud (AWS, Azure), Docker, Kubernetes, versionamento com Git, metodologias ágeis (Scrum e Kanban) e trabalho colaborativo.
+            Ao finalizar cursos, iniciei a Pós-Graduação em Ciência de Dados Geográficos, conectando definitivamente minha trajetória em Geoprocessamento com programação, análise de dados, visualização, automação e IA.
+            Hoje, meu objetivo profissional é claro:
+            atuar na interseção entre tecnologia, dados, mapas e inteligência artificial, desenvolvendo soluções que apoiem análises, planejamento e tomada de decisão baseada em dados.
+            Este portfólio reflete essa transição — não como ruptura, mas como evolução.
+          </p>
+        </div>
+      </section>
+
+      <section id="habilidades">
+        <h2 class="subtitulo-secao">Habilidades</h2>
+        <div class="habilidades-grid">
+
+          <div class="coluna">
+            <h3>Front-end</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+            </ul>
+          </div>
+
+          <div class="coluna">
+            <h3>Back-end</h3>
+            <ul>
+              <li>Node</li>
+              <li>Java</li>
+              <li>Python</li>
+              <li>R</li>
+            </ul>
+          </div>
+
+          <div class="coluna">
+            <h3>Ferramentas</h3>
+            <ul>
+              <li>Git</li>
+              <li>Figma</li>
+              <li>Trello</li>
+            </ul>
+          </div>
+
+          <div class="coluna">
+            <h3>Soft Skills</h3>
+            <ul>
+              <li>Trabalho em equipe</li>
+              <li>Comunicação</li>
+              <li>Organização</li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="frontend" aria-labelledby="titulo-frontend">
+
+        <header>
+          <h2 id="titulo-frontend">FRONT-END</h2>
+        </header>
+
+        <section class="grupo-frontend">
+          <h3>HTML, CSS e JavaScript</h3>
+
+          <div class="cards">
+
+            <article class="card">
+              <h4>Discord</h4>
+              <p>Copia da pagina do Discord</p>
+              <a href="https://fernandabarroslinhares.github.io/clone-discord/" target="_blank">Ver projeto</a>
+            </article>
+
+            <article class="card">
+              <h4>YouTube</h4>
+              <p>Copia da pagina do YouTube</p>
+              <a href="https://fernandabarroslinhares.github.io/Clone-YouTube-/" target="_blank">Ver projeto</a>
+            </article>
+
+            <article class="card">
+              <h4>Wikipedia</h4>
+              <p>Com foco em acessibilidade</p>
+              <a href="https://fernandabarroslinhares.github.io/Winkipedia-moderno-com-acessibilidade/" target="_blank">Ver projeto</a>
+            </article>
+
+          </div>
+        </section>
+                <div class="grupo-frontend">
+          <h3>React</h3>
+
+          <div class="cards">
+
+            <article class="card">
+              <h4>Loja Bike</h4>
+              <p>Clone loja de bike</p>
+              <a href="https://clone-loja-bike.vercel.app/#" target="_blank">Ver repositório</a>
+            </article>
+
+            <article class="card">
+              <h4>Zé Delivery</h4>
+              <p>Clone da pagina do Zé Delivery</p>
+              <a href="https://clone-ze-delivery.vercel.app/" target="_blank">Ver repositório</a>
+            </article>
+
+            <article class="card">
+              <h4>Netflix</h4>
+              <p>Clone da pagina do Netflix</p>
+              <a href="https://clone-netflix-eight-taupe.vercel.app/" target="_blank">Ver repositório</a>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="grupo">
+
+        <header>
+          <h2>Trabalhos em Equipe</h2>
+        </header>
+
+        <div class="grupo-grid">
+
+          <article class="grupo-card">
+            <h4>Viagem365</h4>
+            <p>
+              Plataforma de turismo sustentável desenvolvida em equipe, com aplicação Full Stack para gerenciamento de locais de visitação.
+            </p>
+
+            <h5>Tecnologias</h5>
+            <ul>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>PostgreSQL</li>
+            </ul>
+
+            <h5>Funcionalidades</h5>
+            <ul>
+              <li>Cadastro e listagem</li>
+              <li>Filtros e busca</li>
+              <li>Integração com API</li>
+            </ul>
+
+            <h5>Meu papel no projeto</h5>
+            <ul>
+              <li>Front-End</li>
+              <li>Integração com API</li>
+            </ul>
+
+            <a href="https://github.com/FuturoDEV-Trip/M3P-FrontEnd-squad1" target="_blank">Projeto Front-End</a>
+            <a href="https://github.com/FuturoDEV-Trip/M3P-BackEnd-squad1" target="_blank">Back-End</a>
+          </article>
+
+          <article class="grupo-card">
+            <h4>MedControl</h4>
+
+            <p>
+              Sistema de gestão hospitalar desenvolvido em equipe com controle de pacientes e atendimentos.
+            </p>
+
+            <h5>Tecnologias</h5>
+            <ul>
+              <li>Angular</li>
+              <li>TypeScript</li>
+              <li>Bootstrap</li>
+            </ul>
+
+            <h5>Funcionalidades</h5>
+            <ul>
+              <li>Gestão de pacientes</li>
+              <li>Consultas e exames</li>
+              <li>Logs de atendimento</li>
+            </ul>
+
+            <h5>Meu papel no projeto</h5>
+            <ul>
+              <li>Product Owner</li>
+              <li>Gestão da squad</li>
+            </ul>
+
+            <a href="https://github.com/FullStack-Itacorubi/M3P-FrontEnd-Squad1" target="_blank">Projeto Front-End</a>
+            <a href="https://github.com/FullStack-Itacorubi/M3P-BackEnd-Squad1" target="_blank">Projeto Back-End</a>
+          </article>
+
+        </div>
+      </section>
+
+      <section id="backend">
+
+        <header>
+          <h2>Back-end</h2>
+        </header>
+
+        <div class="cards">
+
+          <article class="card">
+            <h4>Sistema Bancário em Python</h4>
+            <p><strong>Tecnologias:</strong> Python</p>
+            <a href="https://github.com/FernandaBarrosLinhares/SistemaBancarioEmPython" target="_blank">Ver repositório</a>
+          </article>
+
+          <article class="card">
+            <h4>CRUD Produtos</h4>
+            <p><strong>Tecnologias:</strong> Node.js</p>
+            <a href="https://github.com/FernandaBarrosLinhares/CRUD-produtos/blob/main/index.js" target="_blank">Ver código</a>
+          </article>
+
+          <article class="card">
+            <h4>CRUD Integrado com DB</h4>
+            <p><strong>Tecnologias:</strong> Node.js</p>
+            <a href="https://github.com/FernandaBarrosLinhares/CRUD-indegrado-com-DB" target="_blank">Ver repositório</a>
+          </article>
+
+          <article class="card">
+            <h4>Consumo de API</h4>
+            <p><strong>Tecnologias:</strong> Node.js</p>
+            <a href="https://github.com/FernandaBarrosLinhares/Consumo-API/tree/main" target="_blank">Ver repositório</a>
+          </article>
+
+          <article class="card">
+            <h4>Exercícios Lab School</h4>
+            <p><strong>Tecnologias:</strong> Node.js</p>
+            <a href="https://github.com/FernandaBarrosLinhares/ExercicioLabScholl" target="_blank">Ver repositório</a>
+          </article>
+
+        </div>
+      </section>
+
+      <section id="gee">
+
+        <div class="gee-container">
+
+          <div class="gee-intro">
+
+            <h2 class="gee-title">Ciência de Dados Geoespaciais</h2>
+
+            <p class="gee-text">
+              O <strong>
+                <a href="https://earthengine.google.com/" target="_blank">
+                  Google Earth Engine
+                </a>
+              </strong>
+              é uma plataforma em nuvem voltada para análise geoespacial em escala planetária.
+            </p>
+
+            <p class="gee-text">
+              Projetos desenvolvidos com foco em análise de imagens, processamento geoespacial e uso da plataforma Google Earth Engine.
+            </p>
+
+          </div>
+
+          <div class="gee-main">
+
+            <div class="gee-tabs">
+              <button onclick="mostrarAba('areas')">Mapeamento</button>
+              <button onclick="mostrarAba('mosaico')">Mosaico</button>
+              <button onclick="mostrarAba('colecoes')">Coleções</button>
+              <button onclick="mostrarAba('js')">Declividade</button>
+            </div>
+
+            <div class="gee-content">
+
+              <div id="areas" class="gee-card">
+                <h3>Mapeamento de Áreas Verdes</h3>
+                <a href="https://github.com/FernandaBarrosLinhares/Mapeamento-areas-verdes" target="_blank">
+                  github.com/Mapeamento-areas-verdes
+                </a>
+              </div>
+
+              <div id="mosaico" class="gee-card hidden">
+                <h3>Composição e Mosaico de Imagens</h3>
+                <a href="https://github.com/FernandaBarrosLinhares/Composicao-Mascaramento-e-Mosaico" target="_blank">
+                  github.com/Composicao-Mascaramento-e-Mosaico
+                </a>
+              </div>
+
+              <div id="colecoes" class="gee-card hidden">
+                <h3>Operações com Coleções de Imagens</h3>
+                <a href="https://github.com/FernandaBarrosLinhares/Operacoes-com-colecoes-de-imagens" target="_blank">
+                  github.com/Operacoes-com-colecoes-de-imagens
+                </a>
+              </div>
+
+              <div id="js" class="gee-card hidden">
+                <h3>Operações com JavaScript no GEE</h3>
+                <a href="https://github.com/FernandaBarrosLinhares/Operacoes-imagens-com-JS-no-GEE" target="_blank">
+                  github.com/Operacoes-imagens-com-JS-no-GEE
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="gee-images">
+            
+          </div>
+
+        </div>
+
+      </section>
+
+      <footer id="footer">
+
+        <div class="footer-container">
+
+          <section id="dados_contato">
+            <h3>Contato</h3>
+
+            <ul>
+              <li><i class='bx bx-envelope'></i> <a href="mailto:devfernandalinhares@gmail.com">devfernandalinhares@gmail.com</a></li>
+              <li><i class='bx bx-phone'></i> <a href="tel:+5548999973785">(48) 99997-3785</a></li>
+              <li><i class='bx bxl-github'></i> <a href="https://github.com/FernandaBarrosLinhares" target="_blank">GitHub</a></li>
+              <li><i class='bx bxl-linkedin'></i> <a href="https://www.linkedin.com/in/fernanda-linhares-b10ba32b/" target="_blank">LinkedIn</a></li>
+            </ul>
+          </section>
+
+          <div class="footer-form">
+            <h3>Envie uma mensagem</h3>
+            <form>
+              <input type="text" placeholder="Seu nome" required>
+              <textarea placeholder="Sua mensagem" required></textarea>
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+
+          <div class="footer-redes">
+            <h3>Redes</h3>
+
+            <a href="https://instagram.com/santapalhaebiscuit" target="_blank">
+              <i class='bx bxl-instagram'></i>
+            </a>
+
+            <a href="https://github.com/FernandaBarrosLinhares" target="_blank">
+              <i class='bx bxl-github'></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/fernanda-linhares-b10ba32b/" target="_blank">
+              <i class='bx bxl-linkedin'></i>
+            </a>
+          </div>
+
+        </div>
+
+        <p class="footer-copy">© 2026 - Fernanda Linhares</p>
+
+      </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
