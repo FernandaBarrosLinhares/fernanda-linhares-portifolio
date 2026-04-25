@@ -354,7 +354,84 @@
         </div>
 
       </section>
+      <section id="qgis">
+        <div class="geo-container">
 
+          <h2 class="subtitulo-secao">Geoprocessamento (QGIS)</h2>
+
+          <p class="geo-text">
+            Trabalhos desenvolvidos durante a pós-graduação em Ciência de Dados Geográficos,
+            utilizando QGIS para análise espacial, geoprocessamento e manipulação de imagens.
+          </p>
+
+          <div class="carousel-wrapper">
+
+            <button class="arrow left" onclick="scrollCarousel(-1)">
+              &#10094;
+            </button>
+
+            <div class="cards-carousel" id="carousel">
+
+              <!-- CARD 1 -->
+              <div class="geo-card" onclick="openModal('./assets/doceria.jpg')">
+                <img src="./assets/doceria.jpg" alt="Doceria Manaíra">
+                <h3>Doceria Manaíra</h3>
+                <p>Análise espacial para localização ideal com Buffer e dados do IBGE.</p>
+              </div>
+
+              <!-- CARD 2 -->
+              <div class="geo-card" onclick="openModal('./assets/nova_fraiburgo.jpg')">
+                <img src="./assets/nova_fraiburgo.jpg" alt="Nova Friburgo">
+                <h3>Análise Espacial</h3>
+                <p>Modelo Digital de Elevação com sombreamento.</p>
+              </div>
+
+              <!-- CARD 3 -->
+              <div class="geo-card" onclick="openModal('./assets/qualitativo.jpg')">
+                <img src="./assets/qualitativo.jpg" alt="Mapa Qualitativo">
+                <h3>Mapa Qualitativo</h3>
+                <p>Tematização de variáveis categóricas.</p>
+              </div>
+
+              <!-- CARD 4 -->
+              <div class="geo-card" onclick="openModal('./assets/mapa_3d.jpg')">
+                <img src="./assets/mapa_3d.jpg" alt="Mapa 3D">
+                <h3>Análise Topográfica</h3>
+                <p>Curvas de nível e visualização 3D.</p>
+              </div>
+
+              <!-- CARD 5 -->
+              <div class="geo-card" onclick="openModal('./assets/correcao.jpg')">
+                <img src="./assets/correcao.jpg" alt="Correção">
+                <h3>Correção Radiométrica</h3>
+                <p>Correção com SCP em imagens Landsat.</p>
+              </div>
+
+              <!-- CARD 6 -->
+              <div class="geo-card" onclick="openModal('./assets/cajazeira.jpg')">
+                <img src="./assets/cajazeira.jpg" alt="Cajazeira">
+                <h3>Recorte</h3>
+                <p>Mosaico e recorte CBERS4A com melhor resolução.</p>
+              </div>
+
+            </div>
+
+            <button class="arrow right" onclick="scrollCarousel(1)">
+              &#10095;
+            </button>
+
+          </div>
+        </div>
+
+      </section>
+
+      <!-- MODAL -->
+      <div id="modal" class="modal-overlay" onclick="closeModal()">
+        <div class="modal-content" onclick="event.stopPropagation()">
+          <img id="modal-img" src="" alt="Mapa ampliado">
+          <button onclick="closeModal()">Fechar</button>
+        </div>
+      </div>                     
       <footer id="footer">
 
         <div class="footer-container">

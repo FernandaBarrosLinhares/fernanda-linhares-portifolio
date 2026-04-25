@@ -646,7 +646,7 @@ body {
     grid-template-columns: 1fr;
   }
 
-/* @media (max-width: 768px) { */
+
 
 
 
@@ -690,4 +690,115 @@ body {
   }
 }
 
+#qgis {
+  background-color: #14213d;
+  padding: 4em 2em;
+}
+
+.geo-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.geo-text {
+  margin-bottom: 2em;
+  color: #f2f1f1;
+}
+
+/* CARROSSEL */
+.carousel-wrapper {
+  position: relative;
+}
+
+.cards-carousel {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 20px 0;
+}
+
+.cards-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+/* CARD */
+.geo-card {
+  min-width: 300px;
+  background-color: #f4f6f8;
+  border-radius: 12px;
+  padding: 1em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.geo-card:hover {
+  transform: scale(1.05);
+}
+
+.geo-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* SETAS */
+.arrow {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  background-color: var(--azul);
+  color: white;
+  border: none;
+  font-size: 2em;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.arrow.left {
+  left: -10px;
+}
+
+.arrow.right {
+  right: -10px;
+}
+
+/* MODAL */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-overlay.active {
+  display: flex;
+}
+
+.modal-content {
+  background: white;
+  padding: 1em;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.modal-content img {
+  max-width: 80vw;
+  max-height: 70vh;
+  margin-bottom: 10px;
+}
+
+.modal-content button {
+  padding: 10px;
+  background: var(--laranja);
+  border: none;
+  cursor: pointer;
 }
